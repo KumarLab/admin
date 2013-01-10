@@ -2,7 +2,7 @@
  * JavaScript Nicecon
  * Version 1.0.0
  *
- * by Prabhat Kumar
+ * by Prabhat Kumar [prabhat.senior@gmail.com]
  *
  * Copyright © 2013. All rights reserved.
  * http://kumarlab.org/
