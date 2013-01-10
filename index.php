@@ -8,8 +8,8 @@
     <meta name="credit" content="Prabhat Kumar">
     <link href="assets/css/main.css" rel="stylesheet" type="text/css" media="screen"/>
     <link href="favicon.ico" rel="icon" type="image/icon">
-	<script type="text/javascript" src="assets/js/script.min.js"></script>
-	<script type="text/javascript">
+    <script type="text/javascript" src="assets/js/script.min.js"></script>
+    <script type="text/javascript">
 	// Inline script to show nicecon.
 		(function(){
 			var count = 0;
