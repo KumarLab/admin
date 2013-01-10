@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* by Prabhat Kumar
+ ++++++++++++++++++++
+ * Copyright © 2013. All rights reserved.
+ * http://kumarlab.org/
+ * Date: Wed 1/9/2013 -- 6:00 PM [-Indian Standard Time]
+ */
+/*-------------------------------------
+           Reset Styles
+--------------------------------------*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;
+}
+ol, ul {
+	list-style:none;
+}
+/*-------------------------------------
+           End Reset Styles
+--------------------------------------*/
+body {
+	line-height:1;color:black;background:white;
+	background-image:url(http://admin.kumarlab.org/assets/images/bg.gif);background-position:top;background-repeat:repeat-x;background-color:#e8e3D0;
+	font-family:'Georgia', serif;
+}
+.clearfix:after {
+	content:".";display:block;visibility:hidden;height:0;font-size:1px;clear:both;
+}
+.clearfix {zoom:1;}
+a, a:link, a:visited {
+	color:blue;text-decoration:underline;cursor:pointer;
+}
+a:hover {text-decoration:none;}
+#header {
+	visibility:hidden;
+}
+.admin {width:980px;margin:0 auto;}
+.admin #header h1 {background-image:url(http://admin.kumarlab.org/assets/images/cool.gif);background-repeat:no-repeat;background-position:center top;width:980px;height:500px;}
+.admin #header h1 span {display:none;}
+.container {width:840px;border:1px solid #d8d5c6;padding:4px;margin:40px auto 0;}
+.innerborder {background-color:#fcfbf9;border:1px solid #d8d5c6;padding:10px 20px;}
+.siteowner {float:left;font-size:14px;color:#6d6a5b;font-weight:normal;width:400px;border-right:1px solid #d9d6c5;padding:10px 0;.margin-bottom:10px;}
+.cmslogin strong,
+.siteowner strong {font-weight:bold;color:#000;}
+.cmslogin {float:left;font-size:14px;color:#6d6a5b;font-weight:normal;padding-left:20px;padding:10px 0 10px 20px;.margin-bottom:10px;}
+#footer {width:840px;border:1px solid #d8d5c6;padding:4px;margin:10px auto 0;}
+#footer > h4, h5 {font-size:12px;text-align:center;padding:2px;}
