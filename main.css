@@ -21,7 +21,7 @@ ol, ul {
 --------------------------------------*/
 body {
 	line-height:1;color:black;background:white;
-	background-image:url(http://admin.kumarlab.org/assets/images/bg.gif);background-position:top;background-repeat:repeat-x;background-color:#e8e3D0;
+	background-image:url(assets/images/bg.gif);background-position:top;background-repeat:repeat-x;background-color:#e8e3D0;
 	font-family:'Georgia', serif;
 }
 .clearfix:after {
@@ -36,7 +36,7 @@ a:hover {text-decoration:none;}
 	visibility:hidden;
 }
 .admin {width:980px;margin:0 auto;}
-.admin #header h1 {background-image:url(http://admin.kumarlab.org/assets/images/cool.gif);background-repeat:no-repeat;background-position:center top;width:980px;height:500px;}
+.admin #header h1 {background-image:url(assets/images/cool.gif);background-repeat:no-repeat;background-position:center top;width:980px;height:500px;}
 .admin #header h1 span {display:none;}
 .container {width:840px;border:1px solid #d8d5c6;padding:4px;margin:40px auto 0;}
 .innerborder {background-color:#fcfbf9;border:1px solid #d8d5c6;padding:10px 20px;}
