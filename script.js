@@ -66,7 +66,7 @@
 		document.getElementsByTagName('head')[0].appendChild(link);
 	};
 	// Function to get canvas.
-    var getCanvas = function(){
+	var getCanvas = function(){
 		if(!canvas){
 			canvas = document.createElement("canvas");
 			canvas.width = 16;
