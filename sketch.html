@@ -1,0 +1,202 @@
+<html>
+    <head>
+        <title>sketch.js</title>        
+<style>
+@import url(http://fonts.googleapis.com/css?family=Quantico);
+html, body {
+  font-family: 'Quantico', sans-serif;
+	background: #f2f2f2;
+	text-align: center;
+	overflow:auto;
+	margin: 0;
+}
+a {	-webkit-transition: color 300ms ease-out;
+	-moz-transition: color 300ms ease-out;
+	-ms-transition: color 300ms ease-out;
+	-o-transition: color 300ms ease-out;
+	transition: color 300ms ease-out;
+}
+.introduction {margin-top:80px;}
+.introduction h1,
+.introduction h2 {
+	font-weight: 300;
+	margin: 0px 0;
+}
+.introduction h1 {
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+	font-size: 24px;
+	margin: 5px 0;
+}
+.introduction h2 {
+	letter-spacing: -1px;
+	font-size: 16px;
+	opacity: 0.8;
+}
+.navigation {
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+.navigation a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin: 0 5px;
+	color: #45ADA8;
+}
+.navigation a:hover {
+	color: #58DCC3;
+}
+.showcase {
+	display: block;
+}
+.showcase h3 {
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 14px;
+	margin: 10px 0;
+	color: #999;
+}
+figure {
+	-webkit-transition: box-shadow 300ms ease-out;
+	-moz-transition: box-shadow 300ms ease-out;
+	-ms-transition: box-shadow 300ms ease-out;
+	-o-transition: box-shadow 300ms ease-out;
+	transition: box-shadow 300ms ease-out;
+}
+figure {
+	vertical-align: middle;
+	border-radius: 5px;
+	box-shadow: 0px 0px 4px rgba(0,0,0,0.1);
+	background: #fff;
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+	height: 340px;
+	width: 320px;
+}
+figure a {
+	text-decoration: none;
+	color:#111;
+}
+figure img {
+	box-shadow: 0px 0px 2px rgba(0,0,0,0.1);
+	display: block;
+	height: 240px;
+	width: 320px;
+}
+figure figcaption {
+	line-height: 1.4;
+	font-size: 13px;
+	padding: 0 5px;
+	margin: 16px 0 0 0;
+}
+figure figcaption strong {
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 16px;
+}
+figure figcaption p {
+	opacity: 0.8;
+}
+figure figcaption p a {
+	text-decoration: underline;
+}
+figure:hover {
+	box-shadow: 0px 0px 0px 4px rgba(0,0,0,0.1);
+}
+.footer {
+	margin: 40px 0;
+}
+.footer p {
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 11px;
+	margin: 10px 0 0 0;
+	color: #555;
+}
+</style>
+    </head>
+    <body>
+        <header class="introduction">
+            <hgroup>
+                <h1>Sketch.js</h1>
+                <h2>Minimal JavaScript Creative Coding Framework</h2>
+            </hgroup>
+        </header>
+        <nav class="navigation">
+            <a href="https://github.com/soulwire/sketch.js">Github</a>
+            <a href="https://github.com/soulwire/sketch.js/archive/master.zip">Download</a>
+            <a href="https://github.com/soulwire/sketch.js/wiki/">Documentation</a>
+            <a href="https://github.com/soulwire/sketch.js/wiki/API">API</a>
+        </nav>
+        <section class="showcase">
+            <h3>Examples</h3>
+            <figure>
+                <a href="examples/drawing.html">
+                    <img src="examples/img/drawing.jpg">
+                    <figcaption>
+                        <strong>Multi-touch drawing</strong>
+                        <p>Basic example demonstrating how to set up a sketch and handle mouse / touch input</p>
+                    </figcaption>
+                </a>
+            </figure>
+            <figure>
+                <a href="examples/particles.html">
+                    <img src="examples/img/particles.jpg">
+                    <figcaption>
+                        <strong>Particles</strong>
+                        <p>Create a multi-touch particle toy with sketch.js</p>
+                    </figcaption>
+                </a>
+            </figure>
+            <figure>
+                <a href="http://soulwire.github.com/Plasmatic-Isosurface/">
+                    <img src="examples/img/plasma.jpg">
+                    <figcaption>
+                        <strong>Plasmatic Isosurface</strong>
+                        <p>An example using sketch.js in WebGL mode</p>
+                    </figcaption>
+                </a>
+            </figure>
+            <figure>
+                <a href="http://soulwire.github.com/Muscular-Hydrostats/">
+                    <img src="examples/img/tentacles.jpg">
+                    <figcaption>
+                        <strong>Muscular Hydrostats</strong>
+                        <p>An interactive canvas demo powered by sketch.js</p>
+                    </figcaption>
+                </a>
+            </figure>
+            <figure>
+                <a href="http://soulwire.github.com/Crystallisation/">
+                    <img src="examples/img/crystallization.jpg">
+                    <figcaption>
+                        <strong>Crystallisation</strong>
+                        <p>An experiment which uses sketch.js with CoffeeScript</p>
+                    </figcaption>
+                </a>
+            </figure>
+            <figure>
+                <a href="http://lab.hakim.se/linjer/">
+                    <img src="examples/img/linjer.jpg">
+                    <figcaption>
+                        <strong>Linjer</strong>
+                        <p><a href="http://hakim.se/" target="_blank">Hakim El Hattab</a> used sketch.js in this awesome interactive experiment</p>
+                    </figcaption>
+                </a>
+            </figure>
+            <figure>
+                <a href="http://codepen.io/MatthewWagerfield/full/ueIln">
+                    <img src="examples/img/pulse.jpg">
+                    <figcaption>
+                        <strong>Pulse</strong>
+                        <p><a href="http://www.matthew.wagerfield.com/" target="_blank">Matthew Wagerfield</a>'s beautiful geometric canvas experiment build on sketch.js</p>
+                    </figcaption>
+                </a>
+            </figure>
+        </section>
+        <footer class="footer">
+            <p>Using sketch.js? Let me know: justin [at] soulwire.co.uk</p>
+        </footer>
+    </body>
+</html>
