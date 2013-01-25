@@ -1,0 +1,7 @@
+Instead of specifying a bezier directly, there are pre-defined timing values:
+
+ease, equivalent to cubic-bezier(0.25, 0.1, 0.25, 1.0)
+linear, equivalent to cubic-bezier(0.0, 0.0, 1.0, 1.0)
+ease-in, equivalent to cubic-bezier(0.42, 0, 1.0, 1.0)
+ease-out, equivalent to cubic-bezier(0, 0, 0.58, 1.0)
+ease-in-out, equivalent to cubic-bezier(0.42, 0, 0.58, 1.0)
