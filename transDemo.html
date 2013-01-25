@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style>
+/*<pre class="prettyprint lang-css">
+#skew {
+  transform:skew(35deg);
+}
+#scale {
+  transform:scale(1,0.5);
+}
+#rotate {
+  transform:rotate(45deg);
+}
+#translate {
+  transform:translate(10px, 20px);
+}
+#rotate-skew-scale-translate {
+  transform:skew(30deg) scale(1.1,1.1) rotate(40deg) translate(10px, 20px);
+}
+</pre>*/
+
+#transDemo2 div {
+  height:100px;
+  width:100px;
+  border:1px red solid;
+  margin:10px auto;
+  text-align:center;
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+}
+#transDemo2 div:hover, #transDemo2 div.hover_effect {
+  -webkit-transform:rotate(720deg) scale(2,2);
+  -moz-transform:rotate(720deg) scale(2,2);
+  -o-transform:rotate(720deg) scale(2,2);
+  transform:rotate(720deg) scale(2,2);
+}
+</style>
+</head>
+
+<body>
+<div id="transDemo2" style="margin-top:100px;">
+  <div class="hover">Hover on me and I'll spin and scale!</div>
+</div>
+</body>
+</html>
